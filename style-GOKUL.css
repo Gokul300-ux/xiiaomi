@@ -660,6 +660,9 @@ font-weight: 300;
     /* display: none; */
     padding: 3px;
   }
+    nav{
+        display:none;
+    }
 .logo img{
   width: 30%;
   height: 95%;
@@ -782,4 +785,5 @@ multi-phone1,multi-phone2{
  text-align: center;
 }
 }
+
 
