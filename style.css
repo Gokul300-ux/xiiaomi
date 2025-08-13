@@ -656,6 +656,9 @@ font-weight: 300;
 
 
 @media only screen and (max-width: 570px){
+    nav{
+        display:none;
+    }
   .cont2 ul li{
     /* display: none; */
     padding: 3px;
@@ -782,4 +785,5 @@ multi-phone1,multi-phone2{
  text-align: center;
 }
 }
+
 
