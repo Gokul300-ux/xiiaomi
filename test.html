@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="tabs">
+  <button onclick="showTab('productivity')">Productivity Boosters</button>
+  <button onclick="showTab('entertainment')">Immersive Entertainment</button>
+  <button onclick="showTab('lifestyle')">Lifestyle Companions</button>
+  <button onclick="showTab('smart')">Smart Living</button>
+</div>
+
+<div id="productivity" class="tab-content">
+  <h2>Productivity Boosters</h2>
+  <p>Content for Productivity Boosters.</p>
+</div>
+
+<div id="entertainment" class="tab-content" style="display: none;">
+  <h2>Immersive Entertainment</h2>
+  <p>Content for Immersive Entertainment.</p>
+</div>
+
+<div id="lifestyle" class="tab-content" style="display: none;">
+  <h2>Lifestyle Companions</h2>
+  <p>Content for Lifestyle Companions.</p>
+</div>
+
+<div id="smart" class="tab-content" style="display: none;">
+  <h2>Smart Living</h2>
+  <p>Content for Smart Living.</p>
+</div>
+
+
+
+<script>
+  function showTab(ta) {
+    const tabs = document.querySelectorAll('.tab-content');
+    tabs.forEach(function(tab){
+      tab.style.display ='none';
+      
+    });
+    document.getElementById(ta).style.display = 'block';
+  }
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
